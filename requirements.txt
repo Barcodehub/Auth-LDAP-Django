@@ -1,0 +1,4 @@
+django==4.2.7
+django-auth-ldap==4.3.0
+python-ldap==3.4.3
+setuptools==68.2.2

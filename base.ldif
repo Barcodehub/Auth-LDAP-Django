@@ -1,0 +1,27 @@
+dn: dc=example,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: Example Organization
+dc: example
+
+dn: ou=groups,dc=example,dc=com
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=users,dc=example,dc=com
+objectClass: organizationalUnit
+ou: users
+
+dn: cn=active,ou=groups,dc=example,dc=com
+objectClass: posixGroup
+cn: active
+
+dn: cn=staff,ou=groups,dc=example,dc=com
+objectClass: posixGroup
+cn: staff
+
+dn: cn=superuser,ou=groups,dc=example,dc=com
+objectClass: posixGroup
+cn: superuser
+
