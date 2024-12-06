@@ -13,6 +13,9 @@ Este proyecto es una aplicación Django que utiliza autenticación LDAP para ges
 docker-compose up --build
    ```
 
+## Cargar el archivo ldap: 
+```ldapadd -x -D "cn=admin,dc=example,dc=com" -W -f base.ldif```
+
 ## Services
 
 Web Application: ```http://localhost:8000```
